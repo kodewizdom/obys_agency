@@ -20,7 +20,7 @@ function loadingAnimation(){
         } else {
           h5timer.innerHTML = grow
         }
-      }, 35)
+      }, 27)
     },
   });
   tl.to(".line h2",{
@@ -30,7 +30,7 @@ function loadingAnimation(){
   tl.to("#loader", {
     opacity: 0,
     duration: 0.2,
-    delay: 4,
+    delay: 2,
     // overflow:"hidden"
   })
   tl.from('#page1', {
