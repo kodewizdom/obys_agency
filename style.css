@@ -15,6 +15,7 @@ body {
 
 body {
     overflow-x: hidden;
+    background-color: #151515;
 }
 
 #crsr {
@@ -114,7 +115,7 @@ body {
 
 #main {
     position: relative;
-    background-color: #030303;
+    background-color: #151515;
 }
 
 #page1 {
@@ -430,7 +431,7 @@ body {
 
 /*------- Footer -------*/
 #footer {
-    height: 100vh;
+    height: 98vh;
     width: 100%;
     /* background-color: red; */
     position: relative;
