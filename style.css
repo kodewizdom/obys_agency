@@ -206,6 +206,22 @@ body {
     border-bottom: 0.8vw solid #ffffff00;
 }
 
+#flag {
+    height: 25vw;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    
+}
+
+#hero3 {
+    /* background-color: red; */
+    z-index: 999;
+    position: relative;
+}
+
 /*------- section2 -------*/
 
 #page2 {
@@ -292,7 +308,7 @@ body {
     height: 1px;
     width: 68%;
     background-color: #fff;
-    margin: 2vw 0 2vw 28vw  ;
+    margin: 2vw 0 2vw 28vw;
 }
 
 #image-div-container {
