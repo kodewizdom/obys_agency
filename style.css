@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Plain Light';
     color: white;
-    /* cursor: none; */
+    cursor: none;
 }
 
 html,
@@ -18,7 +18,7 @@ body {
     background-color: #151515;
 }
 
-#crsr {
+/* #crsr {
     height: 2.5vw;
     width: 2.5vw;
     border-radius: 50%;
@@ -27,6 +27,13 @@ body {
     z-index: 999;
     mix-blend-mode: difference;
     transform: translate(-50%, -50%);
+} */
+
+.mousefollower {
+    border: 2px solid #fff;
+    background-color: rgb(255, 255, 255);
+    /* scale: 3; */
+    mix-blend-mode: difference;
 }
 
 /*-------- Loader -------*/
@@ -178,20 +185,7 @@ body {
     font-family: "silk serif";
     left: 20%;
     top: 26%;
-    /* animation-name: before-anime;
-    animation-duration: 7s;
-    animation-timing-function: linear; */
 }
-
-/* @keyframes before-anime {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 0;
-    }
-} */
 
 .hero h2 {
     font-size: 7.2vw;
@@ -227,21 +221,24 @@ body {
     width: 71vw;
     position: relative;
     left: 28%;
-    /* background-image: url(/assets/vid-img.jpg); */
+    background-image: url(/assets/vid-img.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-#video-container img {
+/* #video-container img {
     position: absolute;
     height: 100%;
     width: 100%;
     object-fit: cover;
     top: 0;
-}
+} */
 
 #video-container video {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    opacity: 0;
 }
 
 #video-cursor {
@@ -573,7 +570,7 @@ body {
 
 /*------- Footer -------*/
 #footer {
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     /* background-color: red; */
     position: relative;
