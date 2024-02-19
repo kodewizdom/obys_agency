@@ -70,7 +70,7 @@ function loadingAnimation() {
   tl.to("#loader", {
     opacity: 0,
     duration: 0.2,
-    // delay: 2,
+    delay: 3,
   })
   tl.from('#page1', {
     delay: 0.2,
@@ -217,7 +217,7 @@ function footerAnimation() {
       stagger: 0.05
     })
     gsap.to("#footer h2 span", {
-      delay: 0.35,
+      // delay: 0.35,
       opacity: 1,
       stagger: 0.1
     })
@@ -226,7 +226,7 @@ function footerAnimation() {
     gsap.to("#footer h1 span", {
       opacity: 1,
       stagger: 0.1,
-      delay: 0.35,
+      // delay: 0.35,
 
     })
     gsap.to("#footer h2 span", {
